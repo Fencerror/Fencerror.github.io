@@ -10,18 +10,18 @@ import { AnimatedProjects } from './animatedProjects';
 export const Projects: React.FC = () => {
   const projects = [
     {
-      img: TikTalkLogo,
-      alt: 'TikTalk',
-      title: 'TikTalk',
-      description: 'Социальная сеть "TikTalk", с переписками, поиском друзей и сообществами.',
-      link: 'https://github.com/Fencerror/TikTalk',
-    },
-    {
       img: shoplogo,
       alt: 'shop picture',
       title: 'QPickShop',
       description: 'Интернет-магазин наушников со страницами каталога, корзины и оплаты.',
       link: 'https://fencerror.github.io/QPickShop/', 
+    },
+    {
+      img: TikTalkLogo,
+      alt: 'TikTalk',
+      title: 'TikTalk',
+      description: 'Социальная сеть "TikTalk", с переписками, поиском друзей и сообществами.',
+      link: 'https://github.com/Fencerror/TikTalk',
       rotate: 'rotate(6deg)',
       zIndex: 6,
       opacity: 0.7,
@@ -31,7 +31,7 @@ export const Projects: React.FC = () => {
       alt: "website picture",
       title: 'WebSite',
       description: 'Мой персональный сайт, на котором вы прямо сейчас находитесь.',
-      link: 'https://github.com/Fencerror/fencerror.github.io',
+      link: 'https://fencerror.github.io/',
       rotate: 'rotate(6deg)',
       zIndex: 6,
       opacity: 0.7,
