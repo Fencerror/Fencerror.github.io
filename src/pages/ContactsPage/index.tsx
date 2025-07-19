@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navigation } from '../../widgets/nav';
 import '../../app/styles/fonts.css';
-import './style.module.css'; 
+import './style.css'; 
 export const Contacts: React.FC = () => {
   return (
     <>
